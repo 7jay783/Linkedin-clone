@@ -24,6 +24,7 @@ function Navbar(props) {
         <nav style={{height:55,
             position: 'fixed',
             width: '100%',
+            border:'.5px solid #ddd',
             top: 0,
             left: 0,
             zIndex:'3',

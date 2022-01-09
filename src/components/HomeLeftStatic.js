@@ -3,45 +3,45 @@ import React from 'react'
 
 function HomeLeftStatic() {
     return (
-        <div style={{border:'.5px solid #ddd',backgroundColor:'white', borderRadius:'10px', margin:'10px 0px'}}>
+        <div style={{border:'.5px solid #ddd',backgroundColor:'white', borderRadius:'10px', margin:'10px 0px', position:'sticky', top:80}}>
        
             <div style={{margin:'10px', color:'#555'}}>
                    
-                               <div style={{fontSize:'12px'}}>
-                               <div style={{display:'flex', justifyContent:'space-between', padding:'4px'}}>
-                                    <span>
-                                        Groups
-                                    </span>
-                                   
-                                </div>
-                                <div style={{display:'flex',padding:'4px', justifyContent:'space-between'}}>
-                                    <span style={{textAlign:'left'}}>
-                                        Events
-                                        <br/>
+                             <div style={{fontSize:'12px'}}>
+                                <div style={{display:'flex', justifyContent:'space-between', padding:'4px'}}>
+                                        <span>
+                                            Groups
+                                        </span>
+                                    
+                                    </div>
+                                    <div style={{display:'flex',padding:'4px', justifyContent:'space-between'}}>
+                                        <span style={{textAlign:'left'}}>
+                                            Events
+                                            <br/>
+                                            
+                                        </span>
                                         
-                                    </span>
+                                    </div>
+                                   <hr/>
+                                    <div style={{display:'flex',padding:'4px', justifyContent:'space-between'}}>
+                                        <span style={{textAlign:'left'}}>
+                                        Followed Hashtags
+                                        </span>
                                     
-                                </div>
-                               <hr/>
-                                <div style={{display:'flex',padding:'4px', justifyContent:'space-between'}}>
-                                    <span style={{textAlign:'left'}}>
-                                       Followed Hashtags
-                                    </span>
-                                   
-                                </div>
-                                <hr/>
-                                <div style={{display:'flex',padding:'4px', justifyContent:'space-between'}}>
-                                    <span style={{textAlign:'left'}}>
-                                        Discover More
-                                    </span>
-                                    
-                                </div>
+                                    </div>
+                                    <hr/>
+                                    <div style={{display:'flex',padding:'4px', justifyContent:'space-between'}}>
+                                        <span style={{textAlign:'left'}}>
+                                            Discover More
+                                        </span>
+                                        
+                                    </div>
                                </div>
                                
 
                    </div>
             
-    </div>
+        </div>
     )
 }
 

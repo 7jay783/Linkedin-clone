@@ -9,13 +9,14 @@ function Home() {
            <>
 
     <div style={{display:"flex", flexDirection:'row',
-        justifyContent:'space-between',
-         width:"85vw",
+        justifyContent:'space-evenly',
+         width:"90vw",
+        
         margin:'auto'    
 
     }}>
          <div style={{width:'20vw',
-         height:'100vh',
+        height:'4000px',
          justifyContent:'center',
          textAlign:'center'
         }}>
@@ -30,6 +31,8 @@ function Home() {
                justifyContent:'center'
             
                }}>
+                 <HomeMain/>
+                 <HomeMain/>
                  <HomeMain/>
                  <HomeMain/>
                   </div>
